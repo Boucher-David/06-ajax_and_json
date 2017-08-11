@@ -55,7 +55,7 @@ Article.fetchAll = function() {
 
   }
   
-  Article.loadAll(JSON.parse(localStorage.ratData));
+  Article.loadAll(JSON.parse(localStorage.rawData));
   articleView.initIndexPage();
 
 }
